@@ -39,8 +39,8 @@ spec:
     spec:
       containers:
       - name: catalogue
-      image: joindevops/catalogue:1.0.0
-      envFrom:
+        image: joindevops/catalogue:1.0.0
+        envFrom:
         - configMapRef:
             name: catalogue
 ---
